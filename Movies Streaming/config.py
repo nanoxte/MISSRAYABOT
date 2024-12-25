@@ -28,8 +28,11 @@ class Config:
     
     # Supported Sites
     SUPPORTED_SITES = [
-        "example1.com",
-        "example2.com",
+        "https://movies4u.bz",
+        "https://www.azmovies.net",
+        "https://www.fzmovies.ng",
+        "https://www.terabox.com",
+        "https://shareus.io",
         # Add more supported sites
     ]
     
@@ -40,7 +43,7 @@ class Config:
     ]
     
     # Database
-    DB_URL = os.getenv("DATABASE_URL", "sqlite:///movies.db")
+    DB_URL = os.getenv("DATABASE_URL", "mongodb+srv://theaashsaifi:ZalWHlfqRt4xCjFH@rayaofficial.vz5rs.mongodb.net/?retryWrites=true&w=majority&appName=RAYAOFFICIAL")
     
     # Logging
     LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
