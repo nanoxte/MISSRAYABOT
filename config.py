@@ -8,7 +8,7 @@ load_dotenv()
 class Config:
     # Bot Information
     BOT_NAME = "MISSRAYA"
-    VERSION = "1.0.0"
+    VERSION = "BETA1.0.0"
     AUTHOR = "TechRewindEditz"
     LAST_UPDATED = "2024-12-25"
 
