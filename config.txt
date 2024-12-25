@@ -7,20 +7,20 @@ load_dotenv()
 
 class Config:
     # Bot Information
-    BOT_NAME = "Terabox Link Converter Bot"
+    BOT_NAME = "MISSRAYABOT"
     VERSION = "1.0.0"
     AUTHOR = "TechRewindEditz"
     LAST_UPDATED = "2024-12-25"
 
     # Repository Information
     REPO_OWNER = "TechRewindEditz"
-    REPO_NAME = "terabox-link-converter-bot"
-    REPO_URL = f"https://github.com/{REPO_OWNER}/{REPO_NAME}"
+    REPO_NAME = "MISSRAYABOT"
+    REPO_URL = "https://github.com/TechRewindEditz/MISSRAYABOT /MISSRAYABOT"
     
     # Channel Configuration
-    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "TechRewindBot")
+    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "MISS RAYA")
     CHANNEL_ID = os.getenv("CHANNEL_ID", "")  # Add your channel ID
-    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/TechRewindBot")
+    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/MissRaya")
 
     # API Configuration
     API_TOKEN = os.getenv("API_TOKEN", "")
@@ -29,7 +29,7 @@ class Config:
 
     # Terabox Configuration
     TERABOX_API_URL = "https://www.terabox.com/api/v1"
-    USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    USER_AGENT = " (Google Chrome Android/131.0.6778.200; ios/131.0.6778.154) (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     TIMEOUT = 30
     MAX_RETRIES = 3
 
@@ -41,13 +41,13 @@ class Config:
     
     # MXPlayer Configuration
     MXPLAYER_PATH = os.getenv("MXPLAYER_PATH", "mxplayer")
-    STREAM_BUFFER_SIZE = 1024 * 1024  # 1MB buffer size
+    STREAM_BUFFER_SIZE = 480p * 720p * 1080p * 4K * 8K  # 12MB buffer size
     
     # Database Configuration (if needed)
     DB_HOST = os.getenv("DB_HOST", "localhost")
-    DB_PORT = os.getenv("DB_PORT", "5432")
-    DB_NAME = os.getenv("DB_NAME", "terabox_bot")
-    DB_USER = os.getenv("DB_USER", "postgres")
+    DB_PORT = os.getenv("DB_PORT", "8000,8080")
+    DB_NAME = os.getenv("DB_NAME", "missraya")
+    DB_USER = os.getenv("DB_USER", "TechRewindEditz")
     DB_PASSWORD = os.getenv("DB_PASSWORD", "")
 
     # Logging Configuration
