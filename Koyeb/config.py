@@ -11,7 +11,7 @@ class Config(BaseSettings):
     # Basic Bot Information
     BOT_NAME: str = "MISS RAYA"
     BOT_USERNAME: str = "RAYAOFFICIALBOT"
-    BOT_VERSION: str = "Beta1.0.0"
+    BOT_VERSION: str = "BETA1.0.0"
     OWNER_NAME: str = "TechRewindEditz"
     OWNER_ID: int = int(os.getenv("OWNER_ID", "1224407059"))
     
