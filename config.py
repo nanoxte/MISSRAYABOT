@@ -18,15 +18,15 @@ class Config:
     REPO_URL = "https://github.com/TechRewindEditz/MISSRAYABOT /MISSRAYABOT"
     
     # Channel Configuration
-    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "MISS RAYA")
-    CHANNEL_ID = os.getenv("CHANNEL_ID", "-1002411750103")  # Add your channel ID
-    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/MISSRAYAOFFICIAL")
+    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "TERA2.O")
+    CHANNEL_ID = os.getenv("CHANNEL_ID", "-1001911851456")  # Add your channel ID
+    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/terao2")
 
     # API Configuration
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "8093560800:AAFgYxhLEN1sB3YG378bQ8VZDWymFVbArW4")
-    API_HASH = os.getenv("API_HASH", "7ad294cc45490db6085fc63780e9b42f")
-    API_ID = os.getenv("API_ID", "25252087")
-    OWNER_ID = os.getenv("ACCOUNT_ID", "1224407059")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "7050622921:AAHh64E-JRLf1hd2WmC65GBP4BlN_zg6BIA")
+    API_HASH = os.getenv("API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
+    API_ID = os.getenv("API_ID", "23054736")
+    OWNER_ID = os.getenv("ACCOUNT_ID", "1352497419")
     # Terabox Configuration
     TERABOX_API_URL = "https://www.terabox.com/api/v1"
     USER_AGENT = " (Google Chrome Android/131.0.6778.200; ios/131.0.6778.154) (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
