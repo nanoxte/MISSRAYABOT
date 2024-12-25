@@ -1,0 +1,24 @@
+name: MISSRAYABOT
+service:
+  name: MISSRAYABOT
+  env: python
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn src.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+  routes:
+    - path: /
+      port: 8000
+  instance_types:
+    - name: web
+      size: Small
+      scale: 1
+    - name: worker
+      size: Small
+      scale: 1
+  env_vars:
+    - key: TZ
+      value: UTC
+    - key: PYTHONUNBUFFERED
+      value: "1"
+    - key: PORT
+      value: "8000"
+    # Add your secret environment variables in Koyeb dashboard
