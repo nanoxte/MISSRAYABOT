@@ -68,17 +68,20 @@ Streaming with MXPlayer...
 
 
 ## Modular Code Structure
-src/main.py: Main entry point of the bot.
-src/converter.py: Contains the logic for converting Terabox links to direct download links.
-src/mxplayer.py: Handles the functionality to stream media using MXPlayer.
+### 1. src/main.py:
+    Main entry point of the bot.
+### 2. src/converter.py:
+    Contains the logic for converting Terabox links to direct download links.
+### 3. src/mxplayer.py:
+    Handles the functionality to stream media using MXPlayer.
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
-*Fork the repository.*
-*Create a new branch (git checkout -b feature-branch).*
-*Commit your changes (git commit -m 'Add some feature').* *Push to the branch (git push origin feature-branch).*
-*Create a new Pull Request.*
+#### *Fork the repository.*
+#### *Create a new branch (git checkout -b feature-branch).*
+#### *Commit your changes (git commit -m 'Add some feature').* *Push to the branch (git push origin feature-branch).*
+#### *Create a new Pull Request.*
 
 ## License
 This project is licensed under the MIT License.
@@ -87,6 +90,7 @@ This project is licensed under the MIT License.
 
 ## OWNER 
  Written By [TechRewindEditz] 
+
  [https://github.com/TechRewindEditz]
 
 ## ©️TechRewindEditz
