@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f2f447c5-3890-4284-afb7-2b24c0281c55" alt="MISS-RAYA-STREAMING-BOT Logo">
+  <img src="https://github.com/user-attachments/assets/f2f447c5-3890-4284-afb7-2b24c0281c55" alt="MISS RAYA STREAMING BOT Logo">
 </p>
 <h1 align="center">
   MISS RAYA BOT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS-RAYA-STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@TechRewindEditz!;With+Link+Conversion+Feature+Stream/Download+Link+Website+Movies+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS+RAYA+STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Github-@TechRewindEditz!;With+Link+Conversion+Feature+Stream/Download+Link+Website+Movies+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
 </p>
 
 # RAYA STREAMING BOT
 <b><details><summary>Checout For More</summary>
-A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer, and also providing streaming movies from WEBSITES link(Movies Link)
+A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer, and also providing streaming movies from WEBSITES using Movies Link).
 </b>
 </details>
 
