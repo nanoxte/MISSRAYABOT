@@ -1,3 +1,19 @@
+from config import Config
+
+# Initialize configuration
+Config.initialize()
+
+# Access configuration values
+print(f"Bot Name: {Config.BOT_NAME}")
+print(f"Current Time (UTC): {Config.get_current_time()}")
+
+# Check file type
+filename = "example.mp4"
+if Config.is_valid_file_type(filename):
+    file_type = Config.get_file_type(filename)
+    print(f"File type: {file_type}")
+
+
 import requests
 import aiohttp
 import bs4
