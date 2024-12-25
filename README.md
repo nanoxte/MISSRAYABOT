@@ -8,7 +8,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS-RAYA-STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@TechRewindEditz!;With+Link+Conversion+Feature+Stream/Download+Link+Website+Movies+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
 </p>
 
-# WEBSITE/MXPLAYER FILE STREAMING BOT
+# RAYA STREAMING BOT
 <b><details><summary>Checout For More</summary>
 A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer, and also providing streaming movies from WEBSITES link(Movies Link)
 </b>
@@ -86,7 +86,7 @@ This project is licensed under the MIT License.
 
 ## OWNER 
 <b><details><summary>Checout For More</summary>
- Written By [TechRewindEditz] 
+CONTRIBUTOR [TechRewindEditz] 
 [https://github.com/TechRewindEditz]
 
 ## ©️TechRewindEditz
