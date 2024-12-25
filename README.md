@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="VJ-FILE-STORE-BOT Logo">
+  <img src="" alt="MISS-RAYA-STREAMING-BOT Logo">
 </p>
 <h1 align="center">
   MISS RAYA BOT
@@ -34,7 +34,7 @@ The Terabox Link Converter Bot is a Python-based tool designed to convert Terabo
 ## Features
 <b><details><summary>Tap On Me For Bot Features</summary>
  
-- [x] Link Conversion: 
+- [x]Link Conversion: 
 Converts Terabox links to direct download links
 - [x] MXPlayer Streaming: 
 Offers an option to stream media files using MXPlayer.
@@ -45,7 +45,7 @@ Modular code structure for easy enhancements and additional features
 - [x] Website Moveis Streaming:
       Advance Features an to stream media files using Websites link of any Movies. (LIMITED URL)
       
-- [x] INSTALL MYPLAYER
+- [x] Install MYPLAYER
 - [x] MORE FEATURES COMING SOON
 </b>
 </details>
@@ -75,53 +75,6 @@ Modular code structure for easy enhancements and additional features
 - [x]  Python 3.x
 - [x]  pip (Python package installer)
 - [x]  MXPlayer (installed on your system and added to the system PATH)
-</b>
-</details>
-
-## SETUP
-### Clone the Repository:
-<b><details><summary>Tap On Me For Bot Features</summary>
-- [x] sh
-- [x] git clone https://github.com/YourUsername/terabox-link-converter-bot.git
-cd terabox-link-converter-bot
-
-- [x] Install Dependencies:
-pip install -r requirements.txt
-
-## USAGE
-#### Run the Bot:
-python src/main.py
-<b><details><summary>Tap On Me For Bot Features</summary>
-- [x]   Provide the Terabox Link:
-When prompted, enter the Terabox link you want to convert.
-
-- [x]  Get the Direct Download Link:
-The bot will output the direct download link.
-
-- [x]  Stream with MXPlayer (Optional):
-After getting the direct download link, you can choose to stream the media with MXPlayer.
-</b>
-</details>
-
-# Examples
-<b><details><summary>Tap On Me For Bot Features</summary>
-- [x]  Enter Terabox link: 
-https://www.terabox.com/share/xxxxxx
-- [x]  Direct download link: 
-http://example.com/direct-download
-- [x]  Do you want to stream this media with MXPlayer? (yes/no): yes
-Streaming with MXPlayer...
-</b>
-</details>
-
-## Modular Code Structure
-<b><details><summary>Tap On Me For Bot Features</summary>
-### 1. src/main.py:
-    Main entry point of the bot.
-### 2. src/converter.py:
-    Contains the logic for converting Terabox links to direct download links.
-### 3. src/mxplayer.py:
-    Handles the functionality to stream media using MXPlayer.
 </b>
 </details>
 
