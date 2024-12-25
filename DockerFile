@@ -1,0 +1,18 @@
+# Create and navigate to your project directory
+mkdir terabox-converter-bot
+cd terabox-converter-bot
+
+# Create requirements.txt with the above content
+pip install -r requirements.txt
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Linux/Mac:
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
