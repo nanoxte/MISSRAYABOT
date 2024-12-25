@@ -9,22 +9,22 @@ load_dotenv()
 
 class Config(BaseSettings):
     # Basic Bot Information
-    BOT_NAME: str = "MISS RAYA"
-    BOT_USERNAME: str = "RAYAOFFICIALBOT"
+    BOT_NAME: str = "TERA V2"
+    BOT_USERNAME: str = "tony_terabot"
     BOT_VERSION: str = "BETA1.0.0"
-    OWNER_NAME: str = "TechRewindEditz"
-    OWNER_ID: int = int(os.getenv("OWNER_ID", "1224407059"))
+    OWNER_NAME: str = "TechLifez"
+    OWNER_ID: int = int(os.getenv("OWNER_ID", "1352497419"))
     
     # Bot API Configuration
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8093560800:AAFgYxhLEN1sB3YG378bQ8VZDWymFVbArW4")
-    API_ID: int = int(os.getenv("API_ID", "25252087"))
-    API_HASH: str = os.getenv("API_HASH", "7ad294cc45490db6085fc63780e9b42f")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "7050622921:AAHh64E-JRLf1hd2WmC65GBP4BlN_zg6BIA")
+    API_ID: int = int(os.getenv("API_ID", "23054736"))
+    API_HASH: str = os.getenv("API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
     
     # Channel Configuration
-    CHANNEL_ID: int = int(os.getenv("CHANNEL_ID", "-1002411750103"))
-    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "RAYA OFFICIAL")
-    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "missrayaofficial")
-    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/missrayaofficial")
+    CHANNEL_ID: int = int(os.getenv("CHANNEL_ID", "-1001911851456"))
+    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "TERA2.O")
+    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "terao2")
+    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/terao2")
     
     # Website Configuration
     WEBSITE_NAME: str = "Movie Stream Website"
