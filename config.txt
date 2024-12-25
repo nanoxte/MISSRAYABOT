@@ -18,7 +18,7 @@ class Config:
     REPO_URL = "https://github.com/TechRewindEditz/MISSRAYABOT /MISSRAYABOT"
     
     # Channel Configuration
-    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "MISS RAYA")
+    CHANNEL_NAME = os.getenv("CHANNEL_NAME", "MISS_RAYA")
     CHANNEL_ID = os.getenv("CHANNEL_ID", "")  # Add your channel ID
     CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/MissRaya")
 
