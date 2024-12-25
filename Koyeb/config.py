@@ -9,8 +9,8 @@ load_dotenv()
 
 class Config(BaseSettings):
     # Basic Bot Information
-    BOT_NAME: str = "Movie Stream Bot"
-    BOT_USERNAME: str = "MovieStreamBot"
+    BOT_NAME: str = "MISS RAYA BOT"
+    BOT_USERNAME: str = "MISSRAYABOT"
     BOT_VERSION: str = "1.0.0"
     OWNER_NAME: str = "TechRewindEditz"
     OWNER_ID: int = int(os.getenv("OWNER_ID", "0"))
@@ -22,9 +22,9 @@ class Config(BaseSettings):
     
     # Channel Configuration
     CHANNEL_ID: int = int(os.getenv("CHANNEL_ID", "0"))
-    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "MovieStreamChannel")
-    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "MovieStreamChannel")
-    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/MovieStreamChannel")
+    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "MISS RAYA")
+    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "MissRaya")
+    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/MissRaya")
     
     # Website Configuration
     WEBSITE_NAME: str = "Movie Stream Website"
@@ -34,11 +34,11 @@ class Config(BaseSettings):
     
     # Database Configuration
     DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/moviebot")
-    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "moviebot")
-    DATABASE_USER: str = os.getenv("DATABASE_USER", "postgres")
+    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "missraya")
+    DATABASE_USER: str = os.getenv("DATABASE_USER", "TechRewindEditz")
     DATABASE_PASSWORD: str = os.getenv("DATABASE_PASSWORD", "")
     DATABASE_HOST: str = os.getenv("DATABASE_HOST", "localhost")
-    DATABASE_PORT: int = int(os.getenv("DATABASE_PORT", "5432"))
+    DATABASE_PORT: int = int(os.getenv("DATABASE_PORT", "8000,8080"))
     
     # Redis Configuration
     REDIS_URL: str = os.getenv("REDIS_URL", "redis://localhost:6379/0")
@@ -61,7 +61,7 @@ class Config(BaseSettings):
     
     # Media Configuration
     SUPPORTED_MEDIA_TYPES: List[str] = ["video/mp4", "video/x-matroska", "video/webm"]
-    MAX_FILE_SIZE: int = 2147483648  # 2GB in bytes
+    MAX_FILE_SIZE: int = 2147483648  # 3GB in bytes
     CHUNK_SIZE: int = 8192  # 8KB chunks for streaming
     DOWNLOAD_PATH: str = "downloads"
     TEMP_PATH: str = "temp"
@@ -122,8 +122,8 @@ class Config(BaseSettings):
     def assemble_db_url(cls, v: Optional[str], values: Dict[str, any]) -> str:
         if isinstance(v, str):
             return v
-        return PostgresDsn.build(
-            scheme="postgresql",
+        return missrayaDsn.build(
+            scheme="missrayaql",
             user=values.get("DATABASE_USER"),
             password=values.get("DATABASE_PASSWORD"),
             host=values.get("DATABASE_HOST"),
@@ -131,7 +131,7 @@ class Config(BaseSettings):
             path=f"/{values.get('DATABASE_NAME')}"
         )
     
-    @validator("REDIS_URL", pre=True)
+    @validator("REDIS_URL", pre=False)
     def assemble_redis_url(cls, v: Optional[str], values: Dict[str, any]) -> str:
         if isinstance(v, str):
             return v
