@@ -1,0 +1,23 @@
+import requests
+import aiohttp
+import bs4
+import dotenv
+import vlc
+import tqdm
+import colorama
+
+print("All required packages are installed successfully!")
+
+Additional Notes
+Make sure you have pip updated:
+
+python -m pip install --upgrade pip
+If you encounter any installation issues:
+
+pip install --upgrade --force-reinstall -r requirements.txt
+For Windows users, you might need to install Visual C++ build tools:
+
+pip install wheel
+
+pip list --outdated
+pip install -r requirements.txt --upgrade
