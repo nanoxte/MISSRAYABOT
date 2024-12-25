@@ -5,7 +5,7 @@
   MISS RAYA BOT
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS+RAYA+STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Github-@TechRewindEditz!;With+Link+Conversion+Feature+Stream/Download+Link+Website+Movies+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS+RAYA+STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Github-@TechRewindEditz!;With+Link+Conversion+Feature;Stream/Download+Features;Movies+on+Websites+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!)
 </p>
 
 # RAYA STREAMING BOT
