@@ -8,14 +8,14 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MISS-RAYA-STREAMING+BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@TechRewindEditz!;With+Link+Conversion+Feature+Stream/Download+Link+Website+Movies+Streaming+Features;A+Bot+With+Fully+Advanced+Feature!;Thank+You!)
 </p>
 
-# MISS RAYA STREAMING BOT
-<b><details><summary>Tap On Me For Bot Features</summary>
-A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer.
+# WEBSITE/MXPLAYER FILE STREAMING BOT
+<b><details><summary>Checout For More</summary>
+A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer, and also providing streaming movies from WEBSITES link(Movies Link)
 </b>
 </details>
 
 ## CONTENT
-<b><details><summary>Tap On Me For Bot Features</summary>
+<b><details><summary>Checout For More</summary>
 - [x]  Description
 - [x]  Features
 - [x]  Prerequisites
@@ -26,7 +26,7 @@ A Python-based bot to convert Terabox links to direct media download links and s
 
 
 ## DESCRIPTION
-<b><details><summary>Tap On Me For Bot Features</summary>
+<b><details><summary>Checout For More</summary>
 The Terabox Link Converter Bot is a Python-based tool designed to convert Terabox file links into direct media download links. Additionally, it provides an option to stream the media directly using MXPlayer. This bot simplifies the process of accessing media files hosted on Terabox by generating direct links that can be easily shared or streamed.
 </b>
 </details>
@@ -51,7 +51,7 @@ Modular code structure for easy enhancements and additional features
 </details>
 
 ## Environment Variables
-<b><details><summary>Tap On Me For Environment Variable</summary>
+<b><details><summary>Checout For More</summary>
 
 - `API_ID` : Get From [my.telegram.org](https://my.telegram.org)
 - `API_HASH` : Get From [my.telegram.org](https://my.telegram.org)
@@ -71,7 +71,7 @@ Modular code structure for easy enhancements and additional features
 
 
 # Prerequisites
-<b><details><summary>Tap On Me For Bot Features</summary>
+<b><details><summary>Checout For More</summary>
 - [x]  Python 3.x
 - [x]  pip (Python package installer)
 - [x]  MXPlayer (installed on your system and added to the system PATH)
@@ -79,13 +79,13 @@ Modular code structure for easy enhancements and additional features
 </details>
 
 ## License
-<b><details><summary>Tap On Me For Bot Features</summary>
+<b><details><summary>Checout For More</summary>
 This project is licensed under the MIT License.
 </b>
 </details>
 
 ## OWNER 
-<b><details><summary>Tap On Me For Bot Features</summary>
+<b><details><summary>Checout For More</summary>
  Written By [TechRewindEditz] 
 [https://github.com/TechRewindEditz]
 
