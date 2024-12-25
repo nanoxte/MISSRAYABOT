@@ -40,7 +40,7 @@ RUN useradd -m appuser && \
 USER appuser
 
 # Expose port
-EXPOSE 8000
+EXPOSE 8000 8080
 
 # Command to run the application
 CMD ["python", "src/main.py"]
