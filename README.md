@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="MISS-RAYA-STREAMING-BOT Logo">
+  <img src="https://github.com/user-attachments/assets/f2f447c5-3890-4284-afb7-2b24c0281c55" alt="MISS-RAYA-STREAMING-BOT Logo">
 </p>
 <h1 align="center">
   MISS RAYA BOT
