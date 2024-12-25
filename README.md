@@ -1,5 +1,3 @@
-# (c)TechRewindEditz
-
 
 # TERABOX LINK CONVERTER BOT
 A Python-based bot to convert Terabox links to direct media download links and stream them using MXPlayer.
@@ -45,7 +43,7 @@ pip install -r requirements.txt
 
 ## USAGE
 
-### Run the Bot:
+#### Run the Bot:
 python src/main.py
 
 ##### 1. Provide the Terabox Link:
