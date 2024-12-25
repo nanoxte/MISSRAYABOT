@@ -7,7 +7,7 @@ load_dotenv()
 
 class Config:
     # Bot Information
-    BOT_NAME = "MISSRAYABOT"
+    BOT_NAME = "MISSRAYA"
     VERSION = "1.0.0"
     AUTHOR = "TechRewindEditz"
     LAST_UPDATED = "2024-12-25"
@@ -19,14 +19,14 @@ class Config:
     
     # Channel Configuration
     CHANNEL_NAME = os.getenv("CHANNEL_NAME", "MISS RAYA")
-    CHANNEL_ID = os.getenv("CHANNEL_ID", "")  # Add your channel ID
-    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/MissRaya")
+    CHANNEL_ID = os.getenv("CHANNEL_ID", "-1002411750103")  # Add your channel ID
+    CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/MISSRAYAOFFICIAL")
 
     # API Configuration
-    API_TOKEN = os.getenv("API_TOKEN", "")
-    API_HASH = os.getenv("API_HASH", "")
-    API_ID = os.getenv("API_ID", "")
-
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "8093560800:AAFgYxhLEN1sB3YG378bQ8VZDWymFVbArW4")
+    API_HASH = os.getenv("API_HASH", "7ad294cc45490db6085fc63780e9b42f")
+    API_ID = os.getenv("API_ID", "25252087")
+    OWNER_ID = os.getenv("ACCOUNT_ID", "1224407059")
     # Terabox Configuration
     TERABOX_API_URL = "https://www.terabox.com/api/v1"
     USER_AGENT = " (Google Chrome Android/131.0.6778.200; ios/131.0.6778.154) (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
