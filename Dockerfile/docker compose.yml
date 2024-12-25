@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  movie-stream-bot:
+    build: .
+    container_name: missrayabot
+    volumes:
+      - ./downloads:/app/downloads
+      - ./logs:/app/logs
+      - ./config:/app/config
+    environment:
+      - TZ=UTC
+      - API_TOKEN=${API_TOKEN} ""
+      - API_HASH=${API_HASH} ""
+      - API_ID=${API_ID} ""
+      - CHANNEL_ID=${CHANNEL_ID} ""
+      - DB_HOST=db ""
+      - DB_NAME=$ {DB_NAME} ""
+      - DB_USER= postgres
+      - DB_PASSWORD=${DB_PASSWORD}
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13-alpine
+    container_name: missrayabot
+    environment:
+      - POSTGRES_DB=moviebot
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
