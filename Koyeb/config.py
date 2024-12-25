@@ -9,22 +9,22 @@ load_dotenv()
 
 class Config(BaseSettings):
     # Basic Bot Information
-    BOT_NAME: str = "MISS RAYA BOT"
-    BOT_USERNAME: str = "MISSRAYABOT"
-    BOT_VERSION: str = "1.0.0"
+    BOT_NAME: str = "MISS RAYA"
+    BOT_USERNAME: str = "RAYAOFFICIALBOT"
+    BOT_VERSION: str = "Beta1.0.0"
     OWNER_NAME: str = "TechRewindEditz"
-    OWNER_ID: int = int(os.getenv("OWNER_ID", "0"))
+    OWNER_ID: int = int(os.getenv("OWNER_ID", "1224407059"))
     
     # Bot API Configuration
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
-    API_ID: int = int(os.getenv("API_ID", "0"))
-    API_HASH: str = os.getenv("API_HASH", "")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8093560800:AAFgYxhLEN1sB3YG378bQ8VZDWymFVbArW4")
+    API_ID: int = int(os.getenv("API_ID", "25252087"))
+    API_HASH: str = os.getenv("API_HASH", "7ad294cc45490db6085fc63780e9b42f")
     
     # Channel Configuration
-    CHANNEL_ID: int = int(os.getenv("CHANNEL_ID", "0"))
-    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "MISS RAYA")
-    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "MissRaya")
-    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/MissRaya")
+    CHANNEL_ID: int = int(os.getenv("CHANNEL_ID", "-1002411750103"))
+    CHANNEL_NAME: str = os.getenv("CHANNEL_NAME", "RAYA OFFICIAL")
+    CHANNEL_USERNAME: str = os.getenv("CHANNEL_USERNAME", "missrayaofficial")
+    CHANNEL_URL: str = os.getenv("CHANNEL_URL", "https://t.me/missrayaofficial")
     
     # Website Configuration
     WEBSITE_NAME: str = "Movie Stream Website"
@@ -33,8 +33,8 @@ class Config(BaseSettings):
     WEBSITE_ADMIN_URL: str = os.getenv("WEBSITE_ADMIN_URL", "https://admin.moviestream.com")
     
     # Database Configuration
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/moviebot")
-    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "missraya")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "mongodb+srv://theaashsaifi:ZalWHlfqRt4xCjFH@rayaofficial.vz5rs.mongodb.net/?retryWrites=true&w=majority&appName=RAYAOFFICIAL")
+    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "RAYAOFFICIAL")
     DATABASE_USER: str = os.getenv("DATABASE_USER", "TechRewindEditz")
     DATABASE_PASSWORD: str = os.getenv("DATABASE_PASSWORD", "")
     DATABASE_HOST: str = os.getenv("DATABASE_HOST", "localhost")
@@ -77,8 +77,11 @@ class Config(BaseSettings):
     
     # Allowed Domains for Streaming
     ALLOWED_DOMAINS: List[str] = [
-        "example1.com",
-        "example2.com",
+        "https://movies4u.bz",
+        "https://www.azmovies.net",
+        "https://www.fzmovies.ng",
+        "https://www.terabox.com",
+        "https://shareus.io",
         # Add more domains as needed
     ]
     
@@ -145,10 +148,10 @@ class Config(BaseSettings):
                 os.makedirs(directory)
         
         # Validate critical settings
-        assert self.BOT_TOKEN, "Bot token is required"
-        assert self.API_ID, "API ID is required"
-        assert self.API_HASH, "API hash is required"
-        assert self.CHANNEL_ID, "Channel ID is required"
+        assert self.BOT_TOKEN, "Bot token is required" "8093560800:AAFgYxhLEN1sB3YG378bQ8VZDWymFVbArW4"
+        assert self.API_ID, "API ID is required" "25252087"
+        assert self.API_HASH, "API hash is required" "7ad294cc45490db6085fc63780e9b42f"
+        assert self.CHANNEL_ID, "Channel ID is required" "-1002411750103"
         
         # Initialize logging
         import logging
