@@ -1,0 +1,17 @@
+# (c)TechRewindEditz
+
+
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.1
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+
+# Media handling
+python-vlc>=3.0.20000
+pexpect>=4.8.0
+
+# Utilities
+tqdm>=4.66.1
+colorama>=0.4.6
